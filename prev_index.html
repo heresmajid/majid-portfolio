@@ -1,0 +1,1839 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Majid Ahmad | Majid Naveed | AI Developer & Data Scientist | heresmajid</title>
+    <meta name="description"
+        content="Muhammad Majid Ahmad (Majid Naveed, heresmajid, heres_majid) - AI Developer, Data Scientist, and Web Scraping Expert with 3.5+ years of experience and 500+ automation scripts delivered. Professional PyTorch and Machine Learning specialist.">
+    <meta name="keywords"
+        content="Muhammad Majid Ahmad, Majid Ahmad, Majid Naveed, Muhammad Majid Naveed, heresmajid, heres_majid, heres majid, AI Developer, Data Scientist, Web Scraping, Python, Machine Learning, Automation, NLP, Business Intelligence, PyTorch, Deep Learning">
+    <meta name="author" content="Muhammad Majid Ahmad, Majid Naveed, heresmajid">
+    <meta property="og:title"
+        content="Muhammad Majid Ahmad | Majid Naveed | heresmajid - AI Developer & Data Scientist">
+    <meta property="og:description"
+        content="Muhammad Majid Ahmad (Majid Naveed, heresmajid) - Professional AI developer with 3.5+ years of experience on Fiverr and Upwork. 500+ web scraping and automation scripts developed, plus specialized ML, PyTorch and NLP projects across multiple domains.">
+    <meta property="og:image" content="muhammad-majid-ahmad-python-developer-web-scraping-automation-expert.png">
+    <meta property="og:url" content="https://majidahmad.netlify.app">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title"
+        content="Muhammad Majid Ahmad | Majid Naveed | heresmajid - AI Developer & Data Scientist">
+    <meta name="twitter:description"
+        content="Muhammad Majid Ahmad (Majid Naveed, heresmajid) - Professional AI developer with expertise in web scraping, automation, PyTorch and machine learning">
+    <meta name="twitter:image" content="muhammad-majid-ahmad-python-developer-web-scraping-automation-expert.png">
+
+    <!-- Favicon -->
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='grad' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' style='stop-color:%23667eea;stop-opacity:1' /><stop offset='100%' style='stop-color:%23764ba2;stop-opacity:1' /></linearGradient></defs><circle cx='50' cy='50' r='45' fill='url(%23grad)'/><text x='50' y='60' font-family='Arial,sans-serif' font-size='35' font-weight='bold' text-anchor='middle' fill='white'>AI</text></svg>">
+    <link rel="apple-touch-icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='grad' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' style='stop-color:%23667eea;stop-opacity:1' /><stop offset='100%' style='stop-color:%23764ba2;stop-opacity:1' /></linearGradient></defs><circle cx='50' cy='50' r='45' fill='url(%23grad)'/><text x='50' y='60' font-family='Arial,sans-serif' font-size='35' font-weight='bold' text-anchor='middle' fill='white'>AI</text></svg>">
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .card-hover {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .timeline-item {
+            border-left: 3px solid #667eea;
+        }
+
+        .skill-bar {
+            height: 8px;
+            background: #e5e7eb;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .skill-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            transition: width 2s ease;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .publication-item {
+            border-left: 4px solid #10b981;
+        }
+
+        .research-card {
+            background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+        }
+
+        /* Tablet and Mobile Responsiveness Improvements */
+        @media (max-width: 1023px) {
+            .hero-title {
+                font-size: 2.5rem !important;
+                line-height: 1.2;
+            }
+
+            .hero-subtitle {
+                font-size: 1.25rem !important;
+            }
+
+            .hero-description {
+                font-size: 1rem !important;
+            }
+
+            .hero-image {
+                width: 250px !important;
+                height: 250px !important;
+            }
+
+            .hero-image-inner {
+                width: 220px !important;
+                height: 220px !important;
+            }
+
+            .section-title {
+                font-size: 2.5rem !important;
+            }
+
+            .section-subtitle {
+                font-size: 1.125rem !important;
+            }
+
+            .mobile-menu-btn {
+                padding: 8px;
+                font-size: 1.25rem;
+            }
+
+            .nav-brand {
+                font-size: 1.125rem !important;
+            }
+
+            /* Ensure proper spacing on tablets */
+            .max-w-7xl {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+
+            .project-tabs {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+
+            .project-tabs button {
+                width: 100%;
+                justify-content: center;
+                text-align: center;
+            }
+
+            .skill-item {
+                margin-bottom: 1.5rem;
+            }
+
+            .contact-grid {
+                grid-template-columns: 1fr !important;
+            }
+
+            .profile-grid {
+                grid-template-columns: 1fr !important;
+            }
+
+            /* Fix overflow issues */
+            .max-w-7xl {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+
+            /* Improve card spacing on mobile */
+            .research-card,
+            .card-hover {
+                padding: 1.5rem !important;
+            }
+
+            /* Better mobile navigation */
+            .nav-brand {
+                white-space: nowrap;
+            }
+        }
+
+        /* Tablet specific adjustments */
+        @media (min-width: 641px) and (max-width: 1023px) {
+            .nav-brand {
+                font-size: 1.25rem !important;
+            }
+
+            .mobile-menu-btn {
+                padding: 10px;
+                font-size: 1.125rem;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .hero-title {
+                font-size: 2rem !important;
+            }
+
+            .section-title {
+                font-size: 2rem !important;
+            }
+
+            .card-padding {
+                padding: 1.5rem !important;
+            }
+
+            .timeline-item {
+                padding-left: 1.5rem !important;
+            }
+
+            /* Even smaller screens */
+            .hero-image {
+                width: 200px !important;
+                height: 200px !important;
+            }
+
+            .hero-image-inner {
+                width: 180px !important;
+                height: 180px !important;
+            }
+
+            .nav-brand {
+                font-size: 1rem !important;
+            }
+
+            .section-subtitle {
+                font-size: 1rem !important;
+            }
+        }
+
+        /* Fix tab button active states */
+        .pub-tab.active {
+            background-color: #2563eb !important;
+            color: white !important;
+            border-color: #2563eb !important;
+        }
+
+        /* Make all project tag containers responsive */
+        .publication-item .flex.space-x-4 {
+            flex-wrap: wrap !important;
+            gap: 0.5rem !important;
+        }
+
+        .publication-item .flex.space-x-4>* {
+            margin-right: 0 !important;
+        }
+
+
+
+
+
+        /* Print styles - navigation only on first page */
+        @media print {
+
+            /* Reset navigation positioning for print */
+            nav {
+                position: static !important;
+                margin-bottom: 20px;
+            }
+
+            /* Hide navigation after first page */
+            section:not(#home)~* nav,
+            section~nav {
+                display: none !important;
+            }
+
+            /* Better page breaks */
+            section {
+                page-break-inside: avoid;
+                break-inside: avoid;
+                page-break-before: auto;
+            }
+
+            /* Ensure hero section stays with navigation */
+            #home {
+                page-break-after: avoid;
+            }
+
+            /* Hide interactive elements in print */
+            #mobile-menu-btn,
+            #mobile-menu {
+                display: none !important;
+            }
+
+            /* Adjust margins for print */
+            body {
+                margin: 0;
+                padding: 0;
+            }
+
+            .max-w-7xl {
+                max-width: none;
+                padding: 0 20px;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white shadow-lg z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="nav-brand text-xl font-bold text-gray-800">
+                        <span class="hidden lg:inline">Muhammad </span>Majid Ahmad
+                    </span>
+                </div>
+                <div class="hidden lg:flex items-center space-x-6">
+                    <a href="#home" class="text-gray-600 hover:text-blue-600 transition-colors">Home</a>
+                    <a href="#research" class="text-gray-600 hover:text-blue-600 transition-colors">Research</a>
+                    <a href="#publications" class="text-gray-600 hover:text-blue-600 transition-colors">Projects</a>
+                    <a href="#courses" class="text-gray-600 hover:text-blue-600 transition-colors">Courses</a>
+                    <a href="#education" class="text-gray-600 hover:text-blue-600 transition-colors">Education</a>
+                    <a href="#skills" class="text-gray-600 hover:text-blue-600 transition-colors">Skills</a>
+                    <a href="#teaching" class="text-gray-600 hover:text-blue-600 transition-colors">Teaching</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors">Contact</a>
+                </div>
+                <div class="lg:hidden flex items-center">
+                    <button id="mobile-menu-btn"
+                        class="mobile-menu-btn text-gray-600 p-2 rounded-lg hover:bg-gray-100 transition-colors">
+                        <i class="fas fa-bars text-lg"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="lg:hidden hidden bg-white border-t border-gray-200">
+                <div class="px-2 pt-2 pb-3 space-y-1">
+                    <a href="#home" class="block px-3 py-2 text-gray-600 hover:text-blue-600 transition-colors">Home</a>
+                    <a href="#research"
+                        class="block px-3 py-2 text-gray-600 hover:text-blue-600 transition-colors">Research</a>
+                    <a href="#publications"
+                        class="block px-3 py-2 text-gray-600 hover:text-blue-600 transition-colors">Projects</a>
+                    <a href="#courses"
+                        class="block px-3 py-2 text-gray-600 hover:text-blue-600 transition-colors">Courses</a>
+                    <a href="#education"
+                        class="block px-3 py-2 text-gray-600 hover:text-blue-600 transition-colors">Education</a>
+                    <a href="#skills"
+                        class="block px-3 py-2 text-gray-600 hover:text-blue-600 transition-colors">Skills</a>
+                    <a href="#teaching"
+                        class="block px-3 py-2 text-gray-600 hover:text-blue-600 transition-colors">Teaching</a>
+                    <a href="#contact"
+                        class="block px-3 py-2 text-gray-600 hover:text-blue-600 transition-colors">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="gradient-bg text-white py-32 mt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row items-center">
+                <div class="lg:w-1/2 mb-8 lg:mb-0">
+                    <h1 class="hero-title text-4xl lg:text-6xl font-bold mb-4">Muhammad Majid Ahmad</h1>
+                    <p class="hero-subtitle text-xl lg:text-2xl mb-4 text-blue-100">BS Artificial Intelligence Graduate
+                    </p>
+                    <p class="hero-description text-lg mb-8 text-blue-100">Transforming businesses through intelligent
+                        automation and
+                        data-driven solutions</p>
+
+                    <!-- Call to Action -->
+                    <div class="flex justify-start">
+                        <a href="#contact"
+                            class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
+                            <i class="fas fa-envelope mr-2"></i>Get In Touch
+                        </a>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 flex justify-center">
+                    <div
+                        class="hero-image w-80 h-80 rounded-full bg-white bg-opacity-20 flex items-center justify-center">
+                        <div
+                            class="hero-image-inner w-72 h-72 rounded-full overflow-hidden bg-white bg-opacity-30 flex items-center justify-center">
+                            <img src="muhammad-majid-ahmad-python-developer-web-scraping-automation-expert.png"
+                                alt="Muhammad Majid Ahmad - Python Developer, Web Scraping and Automation Expert"
+                                class="w-full h-full object-cover rounded-full">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Interests -->
+    <section id="research" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="section-title text-4xl font-bold text-gray-900 mb-4">Research Interests</h2>
+                <p class="section-subtitle text-xl text-gray-600 max-w-3xl mx-auto">Driven by curiosity about AI's true
+                    capabilities
+                    beyond memorization, focusing on practical applications that solve real-world challenges</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="research-card p-8 rounded-xl card-hover">
+                    <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-search text-2xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Explainable AI (XAI) in Business & NLP</h3>
+                    <p class="text-gray-600">Investigating how AI models make decisions, particularly in language
+                        processing and business applications. Focus on building interpretable systems that can explain
+                        their reasoning process, moving beyond AI as mere "memorization" to true understanding and
+                        transparency in critical decision-making scenarios.</p>
+                </div>
+
+                <div class="research-card p-8 rounded-xl card-hover">
+                    <div class="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-file-text text-2xl text-green-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Bias-Free NLP & Knowledge Extraction</h3>
+                    <p class="text-gray-600">Exploring methods to extract unbiased knowledge from text data, addressing
+                        the fundamental challenge that AI models inherit human biases from training data. Research
+                        focuses on developing techniques for fair information extraction, text mining, and knowledge
+                        graph construction from inherently biased textual sources.</p>
+                </div>
+
+                <div class="research-card p-8 rounded-xl card-hover">
+                    <div class="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-chart-line text-2xl text-purple-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">AI-Driven Business Intelligence & Decision
+                        Support</h3>
+                    <p class="text-gray-600">Applying machine learning and NLP to extract actionable insights from
+                        complex business data for strategic decision-making. Research includes predictive analytics,
+                        automated report generation, and developing AI systems that can understand business context to
+                        provide meaningful recommendations and forecasts.</p>
+                </div>
+
+                <div class="research-card p-8 rounded-xl card-hover">
+                    <div class="w-16 h-16 bg-orange-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-robot text-2xl text-orange-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Intelligent Automation & AI-Enhanced Workflows
+                    </h3>
+                    <p class="text-gray-600">Integrating AI capabilities with automation systems to create smarter, more
+                        adaptive workflows. Leveraging extensive web scraping and automation experience to build
+                        AI-powered tools that can understand, adapt, and optimize real-world processes including data
+                        collection, monitoring, and intelligent task execution.</p>
+                </div>
+
+                <div class="research-card p-8 rounded-xl card-hover">
+                    <div class="w-16 h-16 bg-indigo-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-comments text-2xl text-indigo-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">AI Agents & Smart Assistant Development</h3>
+                    <p class="text-gray-600">Creating intelligent agents that can reason, plan, and act autonomously
+                        across various professional domains. Research focuses on developing AI assistants that can
+                        understand context, generate solutions, and execute complex tasks - similar to advanced coding
+                        assistants but applicable to diverse professional fields and specialized workflows.</p>
+                </div>
+
+                <div class="research-card p-8 rounded-xl card-hover">
+                    <div class="w-16 h-16 bg-red-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-brain text-2xl text-red-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">LLM Behavior Analysis & Reasoning Evaluation
+                    </h3>
+                    <p class="text-gray-600">Studying how Large Language Models perform on novel, unseen tasks to
+                        understand their true reasoning capabilities versus memorization patterns. Research includes
+                        evaluating LLM performance across different domains, developing better prompt engineering
+                        techniques, and improving model interpretability for business and NLP applications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="text-center mb-16">
+                <h2 class="section-title text-4xl font-bold text-gray-900 mb-4">Projects</h2>
+                <p class="section-subtitle text-xl text-gray-600">Academic and freelancing projects across multiple
+                    domains</p>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg p-8">
+                <div class="project-tabs flex flex-wrap gap-2 border-b border-gray-200 mb-8 pb-4">
+                    <button
+                        class="pub-tab px-6 py-3 bg-blue-600 text-white border-2 border-blue-600 font-semibold text-sm rounded-lg shadow-md hover:bg-blue-700 transition-all duration-200"
+                        data-target="webscraping">🔍 Web Scraping</button>
+                    <button
+                        class="pub-tab px-6 py-3 bg-white text-gray-700 border-2 border-gray-300 font-semibold text-sm rounded-lg shadow-sm hover:border-blue-500 hover:text-blue-600 hover:shadow-md transition-all duration-200"
+                        data-target="automation">⚙️ Automation</button>
+                    <button
+                        class="pub-tab px-6 py-3 bg-white text-gray-700 border-2 border-gray-300 font-semibold text-sm rounded-lg shadow-sm hover:border-blue-500 hover:text-blue-600 hover:shadow-md transition-all duration-200"
+                        data-target="machinelearning">🤖 Machine Learning</button>
+                    <button
+                        class="pub-tab px-6 py-3 bg-white text-gray-700 border-2 border-gray-300 font-semibold text-sm rounded-lg shadow-sm hover:border-blue-500 hover:text-blue-600 hover:shadow-md transition-all duration-200"
+                        data-target="nlp">🧠 NLP Projects</button>
+                    <button
+                        class="pub-tab px-6 py-3 bg-white text-gray-700 border-2 border-gray-300 font-semibold text-sm rounded-lg shadow-sm hover:border-blue-500 hover:text-blue-600 hover:shadow-md transition-all duration-200"
+                        data-target="webdev">🌐 Web Development</button>
+                    <button
+                        class="pub-tab px-6 py-3 bg-white text-gray-700 border-2 border-gray-300 font-semibold text-sm rounded-lg shadow-sm hover:border-blue-500 hover:text-blue-600 hover:shadow-md transition-all duration-200"
+                        data-target="dataanalysis">📊 Data Analysis</button>
+                </div>
+
+                <div id="webscraping" class="tab-content active">
+                    <div class="space-y-6">
+                        <div class="publication-item pl-6 py-4 hover:bg-gray-50 rounded-lg">
+                            <h3 class="font-semibold text-gray-900 mb-2">YouTube Video Data Extraction System (Final
+                                Year Project)</h3>
+                            <p class="text-gray-600 mb-2"><strong>Technologies:</strong> EasyOCR, Selenium, OpenCV,
+                                PyTorch, Python, Multi-threading</p>
+                            <p class="text-gray-600 mb-2"><strong>Platform:</strong> Final Year Project | Islamia
+                                University Bahawalpur | 2024-2025</p>
+                            <p class="text-gray-600 mb-3">Developed a groundbreaking solution addressing the critical
+                                gap in existing libraries for visual data extraction from YouTube videos. This
+                                innovative system enables users to extract structured data from videos without relying
+                                on transcripts or expensive APIs. The solution features an intuitive region-of-interest
+                                (ROI) annotation system where users can define specific areas of interest through
+                                screenshot-based selection. The system then employs advanced computer vision techniques
+                                using EasyOCR for text recognition, OpenCV for image processing, and PyTorch for deep
+                                learning capabilities. Multi-threaded architecture ensures efficient processing of large
+                                video datasets, making it a cost-effective alternative to commercial solutions. This
+                                project demonstrates practical application of AI and computer vision in solving
+                                real-world data extraction challenges.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Computer
+                                    Vision</span>
+                                <span class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">OCR
+                                    Technology</span>
+                                <span
+                                    class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">Multi-threading</span>
+                                <span class="inline-block bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded">Deep
+                                    Learning</span>
+                                <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded">Final Year
+                                    Project</span>
+                            </div>
+                        </div>
+
+                        <div class="publication-item pl-6 py-4 hover:bg-gray-50 rounded-lg">
+                            <h3 class="font-semibold text-gray-900 mb-2">Comprehensive Product Database Management
+                                System</h3>
+                            <p class="text-gray-600 mb-2"><strong>Technologies:</strong> Python, BeautifulSoup,
+                                Selenium, JSON/CSV Processing</p>
+                            <p class="text-gray-600 mb-2"><strong>Platform:</strong> Client Project | 2024-2025</p>
+                            <p class="text-gray-600 mb-3">Built and maintained a comprehensive product information
+                                database by scraping data from multiple manufacturer websites. Developed automated
+                                scripts for extracting structured product information and associated PDF files, with
+                                ongoing data updates and maintenance strategies to ensure accuracy and consistency.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Database
+                                    Management</span>
+                                <span
+                                    class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Automated
+                                    Updates</span>
+                                <span class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">Data
+                                    Consistency</span>
+                            </div>
+                        </div>
+
+                        <div class="publication-item pl-6 py-4 hover:bg-gray-50 rounded-lg">
+                            <h3 class="font-semibold text-gray-900 mb-2">TikTok Profile Data Extraction System</h3>
+                            <p class="text-gray-600 mb-2"><strong>Technologies:</strong> Python, Selenium,
+                                BeautifulSoup, Pandas, Excel Processing</p>
+                            <p class="text-gray-600 mb-2"><strong>Platform:</strong> Client Project | 2024-2025</p>
+                            <p class="text-gray-600 mb-3">Developed automated web scraping system for TikTok that
+                                processes sound links from Excel files, scrapes all profiles using those sounds, and
+                                extracts contact details (emails, social media links, phone numbers) from each profile.
+                                Created end-to-end automation that handles multiple sound links and efficiently compiles
+                                profile and contact information into structured Excel outputs.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">TikTok
+                                    Scraping</span>
+                                <span class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Profile
+                                    Analysis</span>
+                                <span
+                                    class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">Contact
+                                    Extraction</span>
+                            </div>
+                        </div>
+
+                        <div class="publication-item pl-6 py-4 hover:bg-gray-50 rounded-lg">
+                            <h3 class="font-semibold text-gray-900 mb-2">ChatGPT Automation & Data Processing System
+                            </h3>
+                            <p class="text-gray-600 mb-2"><strong>Technologies:</strong> Python, Selenium, File
+                                Processing, Media Handling</p>
+                            <p class="text-gray-600 mb-2"><strong>Platform:</strong> Client Project | 2024-2025</p>
+                            <p class="text-gray-600 mb-3">Developed automated ChatGPT interaction system that reads
+                                queries from files, processes associated media from specified folders, submits queries
+                                with media to ChatGPT, and scrapes responses. Created end-to-end automation that handles
+                                file-based input processing and saves ChatGPT responses in structured format for data
+                                collection and analysis.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">ChatGPT
+                                    Automation</span>
+                                <span class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Media
+                                    Processing</span>
+                                <span class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">Query
+                                    Automation</span>
+                            </div>
+                        </div>
+
+                        <div class="publication-item pl-6 py-4 hover:bg-gray-50 rounded-lg">
+                            <h3 class="font-semibold text-gray-900 mb-2">NYC Convenience Stores Directory Scraping</h3>
+                            <p class="text-gray-600 mb-2"><strong>Technologies:</strong> Python, Selenium,
+                                BeautifulSoup, Google Maps API</p>
+                            <p class="text-gray-600 mb-2"><strong>Platform:</strong> Client Project | 2024-2025</p>
+                            <p class="text-gray-600 mb-3">Developed comprehensive scraping solution to extract all
+                                convenience stores in New York City from Google Maps and Yellow Pages. Successfully
+                                scraped and compiled data for 1000+ convenience stores including business names,
+                                addresses, contact information, and operational details into structured database format.
+                            </p>
+                            <div class="flex flex-wrap gap-2"></div>
+                            <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Google
+                                Maps</span>
+                            <span class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Business
+                                Directory</span>
+                            <span class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">Location
+                                Data</span>
+                        </div>
+
+                        <div class="publication-item pl-6 py-4 hover:bg-gray-50 rounded-lg">
+                            <h3 class="font-semibold text-gray-900 mb-2">Amazon Product Category Data Extraction System
+                            </h3>
+                            <p class="text-gray-600 mb-2"><strong>Technologies:</strong> Python, BeautifulSoup,
+                                Selenium, Requests</p>
+                            <p class="text-gray-600 mb-2"><strong>Platform:</strong> Client Project | 2024-2025</p>
+                            <p class="text-gray-600 mb-3">Developed a Python script to extract comprehensive product
+                                information from Amazon categories without using Amazon API. The system scrapes product
+                                details, prices, ratings, reviews, and specifications from specific Amazon product
+                                categories and saves the data locally in structured formats (CSV/JSON) for analysis and
+                                inventory management.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Amazon
+                                    Scraping</span>
+                                <span class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Product
+                                    Data</span>
+                                <span
+                                    class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">API-Free
+                                    Solution</span>
+                            </div>
+                        </div>
+
+                        <div class="publication-item pl-6 py-4 hover:bg-gray-50 rounded-lg">
+                            <h3 class="font-semibold text-gray-900 mb-2">Graph Data Points Extraction System</h3>
+                            <p class="text-gray-600 mb-2"><strong>Technologies:</strong> Python, Selenium, Hidden APIs,
+                                Pandas</p>
+                            <p class="text-gray-600 mb-2"><strong>Platform:</strong> Client Project | 2024-2025</p>
+                            <p class="text-gray-600 mb-3">Developed a Python script to extract numerical data points
+                                from bar graphs and charts using Selenium automation and hidden API endpoints. The
+                                system navigates web-based graph interfaces, leverages undocumented APIs to access
+                                underlying data, and exports the extracted information to CSV format for analysis.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Hidden
+                                    APIs</span>
+                                <span class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Graph
+                                    Scraping</span>
+                                <span class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">Web
+                                    Automation</span>
+                            </div>
+                        </div>
+
+                        <div class="publication-item pl-6 py-4 hover:bg-gray-50 rounded-lg">
+                            <h3 class="font-semibold text-gray-900 mb-2">Instagram Profile & Content Analytics System
+                            </h3>
+                            <p class="text-gray-600 mb-2"><strong>Technologies:</strong> Python, Selenium,
+                                BeautifulSoup, Pandas, Excel Processing</p>
+                            <p class="text-gray-600 mb-2"><strong>Platform:</strong> Client Project | 2024-2025</p>
+                            <p class="text-gray-600 mb-3">Developed comprehensive Instagram scraping system to extract
+                                followers, following lists from user profiles and analyze reels content including likes,
+                                views, comments, and hashtags from descriptions. Created automated data collection
+                                pipeline that processes multiple profiles and compiles engagement metrics and social
+                                network data into structured Excel reports.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Instagram
+                                    Scraping</span>
+                                <span class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Social
+                                    Analytics</span>
+                                <span
+                                    class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">Content
+                                    Analysis</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div id="automation" class="tab-content">
+                    <div class="space-y-6">
+                        <div class="publication-item pl-6 py-4 hover:bg-gray-50 rounded-lg">
+                            <h3 class="font-semibold text-gray-900 mb-2">Portuguese Visa Application Automation System
+                            </h3>
+                            <p class="text-gray-600 mb-2"><strong>Technologies:</strong> Python, Selenium, Excel
+                                Processing, Residential Rotating Proxies, 2captcha API, Anti-Bot Detection</p>
+                            <p class="text-gray-600 mb-2"><strong>Platform:</strong> Client Project | 2024-2025</p>
+                            <p class="text-gray-600 mb-3">Developed automated visa application system for Portuguese
+                                visa processing. The system reads applicant data from Excel files, navigates through
+                                multiple user folders to upload required documents, and handles complex form
+                                submissions. Implemented residential rotating proxies, 2captcha API integration for
+                                CAPTCHA solving, and advanced anti-bot detection measures to ensure reliable processing
+                                of multiple applications.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Visa
+                                    Automation</span>
+                                <span class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Proxy
+                                    Integration</span>
+                                <span
+                                    class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">Anti-Bot
+                                    Detection</span>
+                            </div>
+                        </div>
+
+                        <div class="publication-item pl-6 py-4 hover:bg-gray-50 rounded-lg">
+                            <h3 class="font-semibold text-gray-900 mb-2">Facebook Group Posting Automation Bot</h3>
+                            <p class="text-gray-600 mb-2"><strong>Technologies:</strong> Python, Selenium, Excel
+                                Processing, File Management, Media Upload</p>
+                            <p class="text-gray-600 mb-2"><strong>Platform:</strong> Client Project | 2024-2025</p>
+                            <p class="text-gray-600 mb-3">Developed automated Facebook posting bot that reads group
+                                links from Excel files and post content from text files. The system automatically
+                                navigates to multiple Facebook groups, posts customized content with media attachments
+                                from designated folders, and manages bulk posting across numerous groups with scheduling
+                                and error handling capabilities.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Facebook
+                                    Automation</span>
+                                <span class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Group
+                                    Posting</span>
+                                <span class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">Media
+                                    Upload</span>
+                            </div>
+                        </div>
+
+                        <div class="publication-item pl-6 py-4 hover:bg-gray-50 rounded-lg">
+                            <h3 class="font-semibold text-gray-900 mb-2">Facebook Targeted Commenting & Data Extraction
+                                System</h3>
+                            <p class="text-gray-600 mb-2"><strong>Technologies:</strong> Python, Selenium, Streamlit,
+                                Excel Processing, Keyword Detection</p>
+                            <p class="text-gray-600 mb-2"><strong>Platform:</strong> Client Project | 2024-2025</p>
+                            <p class="text-gray-600 mb-3">Built comprehensive Facebook automation web application using
+                                Streamlit that allows users to input search queries, filter posts by date and location,
+                                scroll through posts, and detect specific keywords in post content. When target keywords
+                                are found, the system automatically comments on posts and scrapes detailed information
+                                including post content, usernames, and links, saving all data to Excel files for
+                                analysis.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Facebook
+                                    Scraping</span>
+                                <span class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Keyword
+                                    Detection</span>
+                                <span
+                                    class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">Streamlit
+                                    App</span>
+                            </div>
+                        </div>
+
+                        <div class="publication-item pl-6 py-4 hover:bg-gray-50 rounded-lg">
+                            <h3 class="font-semibold text-gray-900 mb-2">WhatsApp Bulk Messaging Automation System</h3>
+                            <p class="text-gray-600 mb-2"><strong>Technologies:</strong> Python, Selenium, Excel
+                                Processing, Session Management, Cookie Handling</p>
+                            <p class="text-gray-600 mb-2"><strong>Platform:</strong> Client Project | 2024-2025</p>
+                            <p class="text-gray-600 mb-3">Built automated WhatsApp messaging system that reads contact
+                                numbers from Excel files and message content from text files. Uses Selenium with
+                                advanced session management and cookie handling to maintain WhatsApp Web authentication,
+                                then automatically sends personalized messages and media files to multiple recipients
+                                from the contact list.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">WhatsApp
+                                    Automation</span>
+                                <span class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Bulk
+                                    Messaging</span>
+                                <span
+                                    class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">Session
+                                    Management</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="webdev" class="tab-content">
+                    <div class="space-y-6">
+                        <div class="publication-item pl-6 py-4 hover:bg-gray-50 rounded-lg">
+                            <h3 class="font-semibold text-gray-900 mb-2">Student & Teacher Management System for Private
+                                Institute</h3>
+                            <p class="text-gray-600 mb-2"><strong>Technologies:</strong> Python, Django, streamlit,
+                                HTML/CSS, JavaScript, SQLite/MySQL, Email Integration, </p>
+                            <p class="text-gray-600 mb-2"><strong>Platform:</strong> Client Project | 2024-2025</p>
+                            <p class="text-gray-600 mb-3">Developed comprehensive management system for private
+                                educational institutes featuring secure login system, class creation and management,
+                                student enrollment, and detailed performance tracking. The system includes attendance
+                                monitoring, test report generation, performance analytics with interactive graphs,
+                                monthly dues tracking, teacher performance evaluation, and automated parent notification
+                                system that sends detailed student reports via email.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Education
+                                    Management</span>
+                                <span
+                                    class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Performance
+                                    Analytics</span>
+                                <span
+                                    class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">Automated
+                                    Reporting</span>
+                            </div>
+                        </div>
+
+                        <div class="publication-item pl-6 py-4 hover:bg-gray-50 rounded-lg">
+                            <h3 class="font-semibold text-gray-900 mb-2">YouTube Video & Audio Downloader Web
+                                Application</h3>
+                            <p class="text-gray-600 mb-2"><strong>Technologies:</strong> Python, Django, Streamlit,
+                                yt-dlp, HTML/CSS, JavaScript</p>
+                            <p class="text-gray-600 mb-2"><strong>Platform:</strong> Personal Project | 2024-2025</p>
+                            <p class="text-gray-600 mb-3">Developed user-friendly web application for downloading
+                                YouTube videos and audio content using Django and Streamlit frameworks. The application
+                                features URL input validation, multiple format options (MP4, MP3, various qualities),
+                                download progress tracking, and file management system. Implemented efficient backend
+                                processing with yt-dlp library for reliable media extraction and conversion.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Media
+                                    Processing</span>
+                                <span class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">YouTube
+                                    Integration</span>
+                                <span class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">File
+                                    Management</span>
+                            </div>
+                        </div>
+
+                        <div class="publication-item pl-6 py-4 hover:bg-gray-50 rounded-lg">
+                            <h3 class="font-semibold text-gray-900 mb-2">Excel Data Analysis & Visualization Web
+                                Application</h3>
+                            <p class="text-gray-600 mb-2"><strong>Technologies:</strong> Python, Streamlit, Pandas,
+                                Plotly, Matplotlib, Seaborn, NumPy</p>
+                            <p class="text-gray-600 mb-2"><strong>Platform:</strong> Client Project | 2024-2025</p>
+                            <p class="text-gray-600 mb-3">Developed comprehensive data analysis web application using
+                                Streamlit that allows clients to upload Excel files and receive instant data insights.
+                                The application performs automated data analysis, generates interactive graphs and
+                                tables, provides statistical summaries, identifies trends and patterns, and delivers
+                                actionable business insights through intuitive visualizations and downloadable reports.
+                            </p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Data
+                                    Analysis</span>
+                                <span class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Excel
+                                    Processing</span>
+                                <span
+                                    class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">Interactive
+                                    Visualization</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="dataanalysis" class="tab-content">
+                    <div class="space-y-6">
+                        <div class="publication-item pl-6 py-4 hover:bg-gray-50 rounded-lg">
+                            <h3 class="font-semibold text-gray-900 mb-2">Doctor Performance Analytics Dashboard</h3>
+                            <p class="text-gray-600 mb-2"><strong>Technologies:</strong> Python, Streamlit, Pandas,
+                                NumPy, Plotly, Matplotlib, Seaborn</p>
+                            <p class="text-gray-600 mb-2"><strong>Platform:</strong> Client Project | 2024-2025</p>
+                            <p class="text-gray-600 mb-3">Developed comprehensive healthcare analytics dashboard to
+                                evaluate doctor performance using multiple metrics including patient volume, revenue
+                                generation, and employment tenure. Performed correlation analysis to identify
+                                performance patterns, created interactive visualizations to showcase trends, and
+                                implemented ranking systems to identify top and bottom performing doctors. The web
+                                application provides actionable insights for healthcare management decision-making
+                                through statistical analysis and graphical representations.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span
+                                    class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Healthcare
+                                    Analytics</span>
+                                <span
+                                    class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Performance
+                                    Analysis</span>
+                                <span
+                                    class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">Correlation
+                                    Analysis</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="machinelearning" class="tab-content">
+                    <div class="space-y-6">
+                        <div class="publication-item pl-6 py-4 hover:bg-gray-50 rounded-lg">
+                            <h3 class="font-semibold text-gray-900 mb-2">Movie Recommendation System using TMDB Dataset
+                            </h3>
+                            <p class="text-gray-600 mb-2"><strong>Technologies:</strong> Python, Pandas, NumPy,
+                                Scikit-learn, NLTK, Cosine Similarity, Feature Engineering</p>
+                            <p class="text-gray-600 mb-2"><strong>Platform:</strong> Academic Project | 2024-2025</p>
+                            <p class="text-gray-600 mb-3">Developed content-based movie recommendation system using TMDB
+                                5000 movies dataset. Performed comprehensive data preprocessing, feature extraction from
+                                movie metadata including genres, cast, crew, and plot summaries. Created feature vectors
+                                using TF-IDF vectorization and implemented cosine similarity algorithm to recommend
+                                similar movies based on content features. The system provides personalized movie
+                                recommendations with similarity scores and detailed movie information.</p>
+                            <div class="flex space-x-4">
+                                <span
+                                    class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Recommendation
+                                    System</span>
+                                <span class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Cosine
+                                    Similarity</span>
+                                <span
+                                    class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">Feature
+                                    Engineering</span>
+                            </div>
+                        </div>
+
+                        <div class="publication-item pl-6 py-4 hover:bg-gray-50 rounded-lg">
+                            <h3 class="font-semibold text-gray-900 mb-2">Credit Risk Assessment & Default Prediction
+                                Model</h3>
+                            <p class="text-gray-600 mb-2"><strong>Technologies:</strong> Python, Scikit-learn, XGBoost,
+                                SMOTE, Pandas, NumPy, StandardScaler</p>
+                            <p class="text-gray-600 mb-2"><strong>Platform:</strong> Academic Project | 2024-2025</p>
+                            <p class="text-gray-600 mb-3">Developed comprehensive credit risk assessment model for
+                                financial institutions to predict loan defaults. Performed extensive feature
+                                engineering, data preprocessing with median imputation for missing values, one-hot
+                                encoding for categorical variables, and data normalization using StandardScaler. Applied
+                                SMOTE technique for data balancing and implemented multiple ML algorithms including
+                                Logistic Regression, Random Forest, and XGBoost. Random Forest achieved outstanding
+                                performance with 94% accuracy, significantly outperforming other models in precision and
+                                recall metrics.</p>
+                            <div class="flex space-x-4">
+                                <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Credit
+                                    Risk</span>
+                                <span class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">SMOTE
+                                    Balancing</span>
+                                <span class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">94%
+                                    Accuracy</span>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+                <div id="nlp" class="tab-content">
+                    <div class="space-y-6">
+                        <div class="publication-item pl-6 py-4 hover:bg-gray-50 rounded-lg">
+                            <h3 class="font-semibold text-gray-900 mb-2">Sentiment Analysis System for Customer Feedback
+                            </h3>
+                            <p class="text-gray-600 mb-2"><strong>Technologies:</strong> Python, Scikit-learn, NLTK,
+                                Pandas, Matplotlib, TF-IDF, SMOTE</p>
+                            <p class="text-gray-600 mb-2"><strong>Platform:</strong> Academic Project | 2024-2025</p>
+                            <p class="text-gray-600 mb-3">Developed comprehensive sentiment analysis system to classify
+                                emotions in text data (positive, negative, neutral) for analyzing user feedback, social
+                                media comments, and reviews. Implemented advanced text preprocessing including
+                                tokenization, stopword removal, and stemming. Used TF-IDF vectorization for feature
+                                extraction and experimented with multiple ML models including Logistic Regression, SVM,
+                                and Naive Bayes. Applied SMOTE for handling imbalanced data and achieved 88% accuracy
+                                with Logistic Regression as the best-performing model.</p>
+                            <div class="flex space-x-4">
+                                <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Sentiment
+                                    Analysis</span>
+                                <span class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">TF-IDF
+                                    Vectorization</span>
+                                <span class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">88%
+                                    Accuracy</span>
+                            </div>
+                        </div>
+
+                        <div class="publication-item pl-6 py-4 hover:bg-gray-50 rounded-lg">
+                            <h3 class="font-semibold text-gray-900 mb-2">Multi-Category Text Classification System with
+                                Streamlit GUI</h3>
+                            <p class="text-gray-600 mb-2"><strong>Technologies:</strong> Python, Scikit-learn, NLTK,
+                                Pandas, Streamlit, TF-IDF, Grid Search</p>
+                            <p class="text-gray-600 mb-2"><strong>Platform:</strong> Academic Project | 2024-2025</p>
+                            <p class="text-gray-600 mb-3">Built interactive text classification system to categorize
+                                user-provided text into three predefined categories: Business, Health, and Sports.
+                                Developed comprehensive preprocessing pipeline with lemmatization and advanced feature
+                                extraction using TF-IDF with bigram features for better context capture. Created
+                                user-friendly Streamlit interface for real-time text classification. Applied
+                                hyperparameter tuning with Grid Search and achieved 90% classification accuracy with
+                                Logistic Regression as the optimal model.</p>
+                            <div class="flex space-x-4">
+                                <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Text
+                                    Classification</span>
+                                <span
+                                    class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Streamlit
+                                    Interface</span>
+                                <span class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">90%
+                                    Accuracy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="machinelearning" class="tab-content">
+                    <div class="space-y-6">
+                        <div class="publication-item pl-6 py-4 hover:bg-gray-50 rounded-lg">
+                            <h3 class="font-semibold text-gray-900 mb-2">Movie Recommendation System using Content-Based
+                                Filtering</h3>
+                            <p class="text-gray-600 mb-2"><strong>Technologies:</strong> Python, Pandas, NumPy,
+                                Scikit-learn, NLTK, Cosine Similarity, Feature Engineering</p>
+                            <p class="text-gray-600 mb-2"><strong>Platform:</strong> Academic Project | 2024-2025</p>
+                            <p class="text-gray-600 mb-3">Developed content-based movie recommendation system using TMDB
+                                5000 movies dataset. Performed comprehensive data preprocessing, feature extraction from
+                                movie metadata including genres, cast, crew, and plot summaries. Created feature vectors
+                                using TF-IDF vectorization and implemented cosine similarity algorithm to recommend
+                                similar movies based on content features. The system provides personalized movie
+                                recommendations with similarity scores and detailed movie information.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span
+                                    class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Recommendation
+                                    System</span>
+                                <span class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Cosine
+                                    Similarity</span>
+                                <span
+                                    class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">Feature
+                                    Engineering</span>
+                            </div>
+                        </div>
+
+                        <div class="publication-item pl-6 py-4 hover:bg-gray-50 rounded-lg">
+                            <h3 class="font-semibold text-gray-900 mb-2">Credit Risk Assessment & Default Prediction
+                                Model</h3>
+                            <p class="text-gray-600 mb-2"><strong>Technologies:</strong> Python, Scikit-learn, XGBoost,
+                                SMOTE, Pandas, NumPy, StandardScaler</p>
+                            <p class="text-gray-600 mb-2"><strong>Platform:</strong> Academic Project | 2024-2025</p>
+                            <p class="text-gray-600 mb-3">Developed comprehensive credit risk assessment model for
+                                financial institutions to predict loan defaults. Performed extensive feature
+                                engineering, data preprocessing with median imputation for missing values, one-hot
+                                encoding for categorical variables, and data normalization using StandardScaler. Applied
+                                SMOTE technique for data balancing and implemented multiple ML algorithms including
+                                Logistic Regression, Random Forest, and XGBoost. Random Forest achieved outstanding
+                                performance with 94% accuracy, significantly outperforming other models in precision and
+                                recall metrics.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Credit
+                                    Risk</span>
+                                <span class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">SMOTE
+                                    Balancing</span>
+                                <span class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">94%
+                                    Accuracy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="dataanalysis" class="tab-content">
+                    <div class="space-y-6">
+                        <div class="publication-item pl-6 py-4 hover:bg-gray-50 rounded-lg">
+                            <h3 class="font-semibold text-gray-900 mb-2">Excel Data Analysis & Visualization Web
+                                Application</h3>
+                            <p class="text-gray-600 mb-2"><strong>Technologies:</strong> Python, Streamlit, Pandas,
+                                Plotly, Matplotlib, Seaborn, NumPy</p>
+                            <p class="text-gray-600 mb-2"><strong>Platform:</strong> Client Project | 2024-2025</p>
+                            <p class="text-gray-600 mb-3">Developed comprehensive data analysis web application using
+                                Streamlit that allows clients to upload Excel files and receive instant data insights.
+                                The application performs automated data analysis, generates interactive graphs and
+                                tables, provides statistical summaries, identifies trends and patterns, and delivers
+                                actionable business insights through intuitive visualizations and downloadable reports.
+                            </p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Data
+                                    Analysis</span>
+                                <span class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Excel
+                                    Processing</span>
+                                <span
+                                    class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">Interactive
+                                    Visualization</span>
+                            </div>
+                        </div>
+
+                        <div class="publication-item pl-6 py-4 hover:bg-gray-50 rounded-lg">
+                            <h3 class="font-semibold text-gray-900 mb-2">Data Dashboard Applications</h3>
+                            <p class="text-gray-600 mb-2"><strong>Technologies:</strong> Streamlit, Flask, HTML/CSS,
+                                JavaScript</p>
+                            <p class="text-gray-600 mb-2"><strong>Platform:</strong> Freelancing Projects | 2023-2025
+                            </p>
+                            <p class="text-gray-600 mb-3">Built interactive web applications for data visualization and
+                                analysis, featuring real-time dashboards, user authentication, and database integration
+                                for various business intelligence needs.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Web
+                                    Development</span>
+                                <span class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Data
+                                    Visualization</span>
+                                <span
+                                    class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">Interactive
+                                    Dashboards</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+    </section>
+    
+    <!-- Courses & Certifications -->
+    <section id="courses" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="section-title text-4xl font-bold text-gray-900 mb-4">Courses & Certifications</h2>
+                <p class="section-subtitle text-xl text-gray-600">Continuous learning and professional development</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Course Card 1 - Harvard CS50 -->
+                <div class="bg-white rounded-xl shadow-lg p-8 card-hover">
+                    <div class="w-16 h-16 bg-red-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-university text-2xl text-red-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Harvard CS50's Artificial Intelligence with
+                        Python</h3>
+                    <p class="text-gray-600 mb-3">Comprehensive AI course covering search algorithms, knowledge
+                        representation, uncertainty, optimization, machine learning, neural networks, and large language
+                        models.</p>
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-sm text-gray-500">Instructor: Brian Yu (Harvard)</span>
+                        <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">In
+                            Progress</span>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <span class="text-sm text-gray-500">Platform: YouTube (freeCodeCamp.org)</span>
+                        <span class="text-sm text-gray-500">Duration: 11:51:22</span>
+                    </div>
+                </div>
+
+                <!-- Course Card 2 - PyTorch (Latest) -->
+                <div class="bg-white rounded-xl shadow-lg p-8 card-hover">
+                    <div class="w-16 h-16 bg-red-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-fire text-2xl text-red-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Deep Learning with PyTorch - Episode 1</h3>
+                    <p class="text-gray-600 mb-3">Comprehensive PyTorch fundamentals covering tensor operations, data
+                        types, and deep learning foundations. Mastered tensor creation, manipulation, and GPU computing
+                        basics.</p>
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-sm text-gray-500">Instructor: Ali Hassan</span>
+                        <span
+                            class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Completed</span>
+                    </div>
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-sm text-gray-500">Platform: YouTube</span>
+                        <span class="text-sm text-gray-500">Duration: 3:31:33</span>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <span class="text-sm text-gray-500">Completed: 23/07/2025</span>
+                        <span class="text-sm text-gray-500"></span>
+                    </div>
+                </div>
+
+                <!-- Course Card 2 -->
+                <a href="majid ML, AI, Data Science certificate.jpg" target="_blank"
+                    class="bg-white rounded-xl shadow-lg p-8 card-hover block cursor-pointer">
+                    <div class="w-16 h-16 bg-indigo-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-brain text-2xl text-indigo-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Machine Learning & AI Specialization</h3>
+                    <p class="text-gray-600 mb-3">Advanced Machine Learning, Artificial Intelligence, and Data Science
+                        comprehensive certification</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-sm text-gray-500">Click to view certificate</span>
+                        <span
+                            class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Completed</span>
+                    </div>
+                </a>
+
+                <!-- Course Card 3 -->
+                <a href="Data Science and Machine Learning Certificate.pdf" target="_blank"
+                    class="bg-white rounded-xl shadow-lg p-8 card-hover block cursor-pointer">
+                    <div class="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-robot text-2xl text-green-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Data Science & Machine Learning</h3>
+                    <p class="text-gray-600 mb-3">Advanced machine learning algorithms, data science techniques, and
+                        model deployment</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-sm text-gray-500">Click to view certificate</span>
+                        <span
+                            class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Completed</span>
+                    </div>
+                </a>
+
+                <!-- Course Card 4 -->
+                <a href="Python BS4, Selenium Certificate.pdf" target="_blank"
+                    class="bg-white rounded-xl shadow-lg p-8 card-hover block cursor-pointer">
+                    <div class="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-spider text-2xl text-purple-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Python Web Scraping (BS4 & Selenium)</h3>
+                    <p class="text-gray-600 mb-3">Professional web scraping techniques using Python, BeautifulSoup, and
+                        Selenium</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-sm text-gray-500">Click to view certificate</span>
+                        <span
+                            class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Completed</span>
+                    </div>
+                </a>
+
+                <!-- Course Card 5 -->
+                <a href="Python And Django Certificate.pdf" target="_blank"
+                    class="bg-white rounded-xl shadow-lg p-8 card-hover block cursor-pointer">
+                    <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-code text-2xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Python & Django Development</h3>
+                    <p class="text-gray-600 mb-3">Comprehensive Python and Django web development course covering
+                        fundamentals to advanced concepts</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-sm text-gray-500">Click to view certificate</span>
+                        <span
+                            class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Completed</span>
+                    </div>
+                </a>
+
+                <!-- Course Card 6 -->
+                <a href="Python And Flask Certificate.pdf" target="_blank"
+                    class="bg-white rounded-xl shadow-lg p-8 card-hover block cursor-pointer">
+                    <div class="w-16 h-16 bg-orange-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-flask text-2xl text-orange-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Python & Flask Development</h3>
+                    <p class="text-gray-600 mb-3">Web application development using Python and Flask framework with
+                        database integration</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-sm text-gray-500">Click to view certificate</span>
+                        <span
+                            class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Completed</span>
+                    </div>
+                </a>
+
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="section-title text-4xl font-bold text-gray-900 mb-4">Education</h2>
+                <p class="section-subtitle text-xl text-gray-600">Academic journey and qualifications</p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12">
+                <!-- Education -->
+                <div>
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-8">Education</h3>
+                    <div class="space-y-8">
+                        <div class="timeline-item pl-8 pb-8 relative">
+                            <div class="absolute left-0 top-0 w-4 h-4 bg-green-600 rounded-full -translate-x-2"></div>
+                            <div class="bg-green-50 p-6 rounded-xl border border-green-200">
+                                <h4 class="font-semibold text-gray-900 text-lg">Master's Degree (Seeking Admission)</h4>
+                                <p class="text-green-600 font-medium">Target: International Universities</p>
+                                <p class="text-gray-600">2025 | Seeking Full-Time Study to Transfer Skills, Preferred
+                                    Funded/Scholarship</p>
+                                <p class="text-gray-600 mt-2">Focus Areas: Advanced AI, Machine Learning, Research
+                                    Methodology</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item pl-8 pb-8 relative">
+                            <div class="absolute left-0 top-0 w-4 h-4 bg-blue-600 rounded-full -translate-x-2"></div>
+                            <div class="bg-gray-50 p-6 rounded-xl">
+                                <h4 class="font-semibold text-gray-900 text-lg">Bachelor of Science in Artificial
+                                    Intelligence</h4>
+                                <p class="text-blue-600 font-medium">Islamia University Bahawalpur</p>
+                                <p class="text-gray-600">2021-2025 | Bahawalpur, Pakistan</p>
+                                <p class="text-gray-600 mt-2">CGPA: 3.58/4.0</p>
+                                <p class="text-gray-600 mt-2">Relevant Coursework: Machine Learning, Deep Learning, Data
+                                    Structures, Algorithms, Computer Vision, Natural Language Processing</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item pl-8 pb-8 relative">
+                            <div class="absolute left-0 top-0 w-4 h-4 bg-blue-600 rounded-full -translate-x-2"></div>
+                            <div class="bg-gray-50 p-6 rounded-xl">
+                                <h4 class="font-semibold text-gray-900 text-lg">Intermediate (Pre-Medical)</h4>
+                                <p class="text-blue-600 font-medium">Government Sadiq Egerton College Bahawalpur</p>
+                                <p class="text-gray-600">2019-2021 | Bahawalpur, Pakistan</p>
+                                <p class="text-gray-600 mt-2">Marks: 957/1100 (87%)</p>
+                                <p class="text-gray-600 mt-2">Subjects: Biology, Physics, Chemistry</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item pl-8 pb-8 relative">
+                            <div class="absolute left-0 top-0 w-4 h-4 bg-blue-600 rounded-full -translate-x-2"></div>
+                            <div class="bg-gray-50 p-6 rounded-xl">
+                                <h4 class="font-semibold text-gray-900 text-lg">Matriculation (Science)</h4>
+                                <p class="text-blue-600 font-medium">Government Technical High School Bahawalpur</p>
+                                <p class="text-gray-600">2017-2019 | Bahawalpur, Pakistan</p>
+                                <p class="text-gray-600 mt-2">Marks: 987/1100 (89.7%)</p>
+                                <p class="text-gray-600 mt-2">Subjects: Biology, Physics, Chemistry</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience -->
+                <div>
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-8">Research Experience</h3>
+                    <div class="space-y-8">
+                        <div class="timeline-item pl-8 pb-8 relative">
+                            <div class="absolute left-0 top-0 w-4 h-4 bg-green-600 rounded-full -translate-x-2"></div>
+                            <div class="bg-gray-50 p-6 rounded-xl">
+                                <h4 class="font-semibold text-gray-900 text-lg">YouTube Video Data Extraction Research
+                                    (Final Year Project)</h4>
+                                <p class="text-green-600 font-medium">Independent Research | Islamia University
+                                    Bahawalpur</p>
+                                <p class="text-gray-600">2024-2025 | Bahawalpur, Pakistan</p>
+                                <p class="text-gray-600 mt-2">Conducted comprehensive research and development of an
+                                    innovative computer vision-based solution that revolutionizes data extraction from
+                                    YouTube videos. This groundbreaking project addresses a critical gap in existing
+                                    data extraction methodologies by eliminating dependency on expensive APIs and
+                                    unreliable transcript services. The research involved extensive analysis of current
+                                    limitations in video data extraction tools and proposed a novel approach combining
+                                    multiple AI technologies.</p>
+                                <p class="text-gray-600 mt-2"><strong>Key Research Contributions:</strong></p>
+                                <ul class="text-gray-600 mt-1 ml-4 list-disc">
+                                    <li>Developed a hybrid computer vision system integrating EasyOCR, OpenCV, and
+                                        PyTorch for robust text recognition from video frames</li>
+                                    <li>Designed an intuitive Region-of-Interest (ROI) annotation framework allowing
+                                        users to define extraction zones through screenshot-based selection</li>
+                                    <li>Implemented advanced multi-threading architecture for scalable processing of
+                                        large video datasets</li>
+                                    <li>Created cost-effective alternative to commercial video data extraction solutions
+                                    </li>
+                                    <li>Established new benchmarks for accuracy and efficiency in visual data extraction
+                                        from multimedia content</li>
+                                </ul>
+                                <p class="text-gray-600 mt-2">This research demonstrates practical application of
+                                    artificial intelligence in solving real-world challenges and contributes to the
+                                    advancement of automated data extraction methodologies in the field of computer
+                                    vision and web scraping.</p>
+                                <div class="mt-3">
+                                    <span
+                                        class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded mr-2">Computer
+                                        Vision</span>
+                                    <span
+                                        class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded mr-2">Deep
+                                        Learning</span>
+                                    <span
+                                        class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded mr-2">OCR
+                                        Technology</span>
+                                    <span
+                                        class="inline-block bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded mr-2">Multi-threading</span>
+                                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded">Final
+                                        Year Project</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item pl-8 pb-8 relative">
+                            <div class="absolute left-0 top-0 w-4 h-4 bg-green-600 rounded-full -translate-x-2"></div>
+                            <div class="bg-gray-50 p-6 rounded-xl">
+                                <h4 class="font-semibold text-gray-900 text-lg">Normalization Algorithms & Feature
+                                    Weighting Research</h4>
+                                <p class="text-green-600 font-medium">Under Supervision of Sir Nasir, Additional
+                                    Director
+                                    of IT</p>
+                                <p class="text-gray-600">2025 | Islamia University Bahawalpur</p>
+                                <p class="text-gray-600 mt-2">Conducted comprehensive research on multiple normalization
+                                    algorithms and feature weighting techniques using pandas and numpy. Analyzed various
+                                    approaches to data preprocessing and feature engineering to improve machine learning
+                                    classifier performance and accuracy.</p>
+                                <div class="mt-3">
+                                    <span
+                                        class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded mr-2">Data
+                                        Science</span>
+                                    <span
+                                        class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded mr-2">Machine
+                                        Learning</span>
+                                    <span
+                                        class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">Feature
+                                        Engineering</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Awards -->
+    <section id="skills" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12">
+                <!-- Skills -->
+                <div>
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-8">Technical Skills</h3>
+                    <div class="space-y-6">
+                        <!-- Programming Languages -->
+                        <div>
+                            <div class="flex items-center justify-between mb-2">
+                                <div class="flex items-center">
+                                    <div class="w-8 h-8 bg-green-100 rounded-lg flex items-center justify-center mr-3">
+                                        <i class="fas fa-code text-green-600 text-sm"></i>
+                                    </div>
+                                    <span class="text-gray-700 font-medium">Programming Languages</span>
+                                </div>
+                                <span class="text-gray-500">Professional</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 85%"></div>
+                            </div>
+                            <div class="mt-2">
+                                <p class="text-sm text-gray-700 font-medium mb-1">Python (Expert)</p>
+                                <p class="text-xs text-gray-500">Primary development language with extensive experience
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Core Strengths -->
+                        <div>
+                            <div class="flex items-center justify-between mb-2">
+                                <div class="flex items-center">
+                                    <div class="w-8 h-8 bg-yellow-100 rounded-lg flex items-center justify-center mr-3">
+                                        <i class="fas fa-star text-yellow-600 text-sm"></i>
+                                    </div>
+                                    <span class="text-gray-700 font-medium">Core Strengths</span>
+                                </div>
+                                <span class="text-gray-500">Professional</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 90%"></div>
+                            </div>
+                            <div class="mt-2">
+                                <p class="text-sm text-gray-700 font-medium mb-1">Proven leadership and problem-solving
+                                    abilities</p>
+                                <p class="text-xs text-gray-500">Quick Learning, Critical Thinking, Problem Solving,
+                                    Communication, Management</p>
+                            </div>
+                        </div>
+
+                        <!-- Data Scraping & Automation -->
+                        <div>
+                            <div class="flex items-center justify-between mb-2">
+                                <div class="flex items-center">
+                                    <div class="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center mr-3">
+                                        <i class="fas fa-robot text-blue-600 text-sm"></i>
+                                    </div>
+                                    <span class="text-gray-700 font-medium">Data Scraping & Automation</span>
+                                </div>
+                                <span class="text-gray-500">Expert</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 95%"></div>
+                            </div>
+                            <div class="mt-2">
+                                <p class="text-sm text-gray-700 font-medium mb-1">Enterprise-level automation solutions
+                                </p>
+                                <p class="text-xs text-gray-500">Selenium, BeautifulSoup, Requests, PyPDF2, OCR
+                                    (Tesseract), OS Automation</p>
+                            </div>
+                        </div>
+
+                        <!-- Data Analysis & Insights Discovery -->
+                        <div>
+                            <div class="flex items-center justify-between mb-2">
+                                <div class="flex items-center">
+                                    <div class="w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center mr-3">
+                                        <i class="fas fa-chart-line text-purple-600 text-sm"></i>
+                                    </div>
+                                    <span class="text-gray-700 font-medium">Data Analysis & Insights Discovery</span>
+                                </div>
+                                <span class="text-gray-500">Professional</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 85%"></div>
+                            </div>
+                            <div class="mt-2">
+                                <p class="text-sm text-gray-700 font-medium mb-1">Uncovering actionable business
+                                    insights from complex data</p>
+                                <p class="text-xs text-gray-500">Pattern Recognition, Correlation Analysis, Statistical
+                                    Modeling, Probability Theory, Business Intelligence</p>
+                            </div>
+                        </div>
+
+                        <!-- Machine Learning & AI -->
+                        <div>
+                            <div class="flex items-center justify-between mb-2">
+                                <div class="flex items-center">
+                                    <div class="w-8 h-8 bg-indigo-100 rounded-lg flex items-center justify-center mr-3">
+                                        <i class="fas fa-brain text-indigo-600 text-sm"></i>
+                                    </div>
+                                    <span class="text-gray-700 font-medium">Machine Learning & AI</span>
+                                </div>
+                                <span class="text-gray-500">Professional</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 80%"></div>
+                            </div>
+                            <div class="mt-2">
+                                <p class="text-sm text-gray-700 font-medium mb-1">End-to-end ML solutions from concept
+                                    to deployment</p>
+                                <p class="text-xs text-gray-500">Feature Engineering, Classification, Regression,
+                                    Transfer Learning, Predictive Modeling, Scikit-learn, PyTorch (Tensor Operations &
+                                    Fundamentals)</p>
+                            </div>
+                        </div>
+
+                        <!-- Natural Language Processing -->
+                        <div>
+                            <div class="flex items-center justify-between mb-2">
+                                <div class="flex items-center">
+                                    <div class="w-8 h-8 bg-orange-100 rounded-lg flex items-center justify-center mr-3">
+                                        <i class="fas fa-language text-orange-600 text-sm"></i>
+                                    </div>
+                                    <span class="text-gray-700 font-medium">Natural Language Processing</span>
+                                </div>
+                                <span class="text-gray-500">Professional</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 78%"></div>
+                            </div>
+                            <div class="mt-2">
+                                <p class="text-sm text-gray-700 font-medium mb-1">Advanced text intelligence and
+                                    language understanding</p>
+                                <p class="text-xs text-gray-500">Text Preprocessing, Normalization, Feature Weighting,
+                                    Text Classification, Sentiment Analysis, Named Entity Recognition, Knowledge Base &
+                                    Inference Resolution</p>
+                            </div>
+                        </div>
+
+                        <!-- Web Development -->
+                        <div>
+                            <div class="flex items-center justify-between mb-2">
+                                <div class="flex items-center">
+                                    <div class="w-8 h-8 bg-teal-100 rounded-lg flex items-center justify-center mr-3">
+                                        <i class="fas fa-globe text-teal-600 text-sm"></i>
+                                    </div>
+                                    <span class="text-gray-700 font-medium">Web Development</span>
+                                </div>
+                                <span class="text-gray-500">Intermediate</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 70%"></div>
+                            </div>
+                            <div class="mt-2">
+                                <p class="text-sm text-gray-700 font-medium mb-1">Full-stack web application development
+                                </p>
+                                <p class="text-xs text-gray-500">HTML, CSS, JavaScript, Bootstrap, Flask, Django,
+                                    Streamlit</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Awards -->
+                <div>
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-8">Awards & Honors</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <div
+                                class="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-trophy text-yellow-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Top Rated Seller - Upwork</h4>
+                                <p class="text-gray-600">Upwork Platform | 2025</p>
+                                <p class="text-gray-600 text-sm">Achieved Top Rated status as Python Developer</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div
+                                class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-medal text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Level 2 Seller - Fiverr</h4>
+                                <p class="text-gray-600">Fiverr Platform | 2023</p>
+                                <p class="text-gray-600 text-sm">Achieved Level 2 Seller status as Python Developer
+                                    specializing in Web Scraping and Automation</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div
+                                class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-star text-green-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">NAVTTC Advanced Python Programming Course
+                                    Trainer</h4>
+                                <p class="text-gray-600">NAVTTC | 2025</p>
+                                <p class="text-gray-600 text-sm">Honored as certified trainer for Advanced Python
+                                    Programming Course at DevCastle, IUB</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Experience & Mentoring -->
+    <section id="teaching" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Professional Experience & Mentoring</h2>
+                <p class="text-xl text-gray-600">Teaching, mentoring, and knowledge sharing in technology</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-gray-50 p-8 rounded-xl card-hover">
+                    <div class="flex items-center mb-6">
+                        <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
+                            <i class="fas fa-chalkboard-teacher text-blue-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-900">NAVTTC Advanced Python Programming Instructor</h3>
+                            <p class="text-gray-600">DevCastle, IUB | May - June 2025</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">Delivered comprehensive 3-month Advanced Python Programming course
+                        covering data structures, algorithms, web scraping, automation, and practical applications.
+                        Designed curriculum with hands-on projects, real-world case studies, and industry best
+                        practices.</p>
+                    <div class="flex items-center text-sm text-gray-500">
+                        <i class="fas fa-calendar mr-2"></i>
+                        <span>3 months intensive</span>
+                        <i class="fas fa-code ml-4 mr-2"></i>
+                        <span>Advanced Python</span>
+                    </div>
+                </div>
+
+                <div class="bg-gray-50 p-8 rounded-xl card-hover">
+                    <div class="flex items-center mb-6">
+                        <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mr-4">
+                            <i class="fas fa-users text-green-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-900">Technical Mentoring & Code Reviews</h3>
+                            <p class="text-gray-600">Freelance & Community | 2022 - Present</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">Provide technical mentoring to junior developers and students in
+                        Python, web scraping, automation, and AI/ML projects. Conduct code reviews, architecture
+                        guidance, and best practices training for various development teams and individual learners.</p>
+                    <div class="flex items-center text-sm text-gray-500">
+                        <i class="fas fa-laptop-code mr-2"></i>
+                        <span>Code Reviews</span>
+                        <i class="fas fa-graduation-cap ml-4 mr-2"></i>
+                        <span>Technical Mentoring</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="section-title text-4xl font-bold text-gray-900 mb-4">Get In Touch</h2>
+                <p class="section-subtitle text-xl text-gray-600">Let's discuss research opportunities and
+                    collaborations</p>
+            </div>
+
+            <div class="contact-grid grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <!-- Contact Cards -->
+                <div class="bg-white rounded-xl shadow-lg p-8 card-hover text-center">
+                    <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-envelope text-2xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Email</h3>
+                    <p class="text-gray-600 mb-4">Drop me a line anytime</p>
+                    <a href="mailto:heresmajid@gmail.com"
+                        class="text-blue-600 hover:text-blue-800 font-medium">heresmajid@gmail.com</a>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-8 card-hover text-center">
+                    <div class="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-phone text-2xl text-green-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Phone</h3>
+                    <p class="text-gray-600 mb-4">Contact me on WhatsApp for quick communication</p>
+                    <a href="tel:+923057822724" class="text-green-600 hover:text-green-800 font-medium">+92 305
+                        7822724</a>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-8 card-hover text-center">
+                    <div class="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-map-marker-alt text-2xl text-purple-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Location</h3>
+                    <p class="text-gray-600 mb-4">Based in Pakistan</p>
+                    <p class="text-purple-600 font-medium">Bahawalpur, Pakistan</p>
+                </div>
+            </div>
+
+            <!-- Professional Profiles Section -->
+            <div class="mt-16 bg-white rounded-xl shadow-lg p-8 max-w-4xl mx-auto">
+                <div class="text-center">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-6">Professional Profiles</h3>
+                    <p class="text-gray-600 mb-8">Connect with me on professional platforms</p>
+
+                    <div class="profile-grid grid md:grid-cols-2 gap-6">
+                        <a href="https://www.linkedin.com/in/heresmajid/" target="_blank"
+                            class="flex items-center p-6 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors group">
+                            <div
+                                class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4 group-hover:bg-blue-200">
+                                <i class="fab fa-linkedin text-xl text-blue-600"></i>
+                            </div>
+                            <div class="text-left">
+                                <h4 class="font-semibold text-gray-900">LinkedIn</h4>
+                                <p class="text-gray-600 text-sm">Professional networking & career updates</p>
+                            </div>
+                            <i class="fas fa-external-link-alt text-gray-400 ml-auto group-hover:text-blue-600"></i>
+                        </a>
+
+                        <a href="https://upwork.com/freelancers/heresmajid" target="_blank"
+                            class="flex items-center p-6 bg-green-50 rounded-lg hover:bg-green-100 transition-colors group">
+                            <div
+                                class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mr-4 group-hover:bg-green-200">
+                                <i class="fas fa-briefcase text-xl text-green-600"></i>
+                            </div>
+                            <div class="text-left">
+                                <h4 class="font-semibold text-gray-900">Upwork</h4>
+                                <p class="text-gray-600 text-sm">Freelancing portfolio & client reviews</p>
+                            </div>
+                            <i class="fas fa-external-link-alt text-gray-400 ml-auto group-hover:text-green-600"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <p class="text-gray-400">&copy; 2024 Majid Ahmad. All rights reserved.</p>
+                <p class="text-gray-400 mt-2">Last updated: <span id="last-updated-date"></span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Publication tabs
+        document.querySelectorAll('.pub-tab').forEach(tab => {
+            tab.addEventListener('click', function () {
+                // Remove active class from all tabs
+                document.querySelectorAll('.pub-tab').forEach(t => {
+                    // Remove active styles
+                    t.classList.remove('bg-blue-600', 'text-white', 'border-blue-600', 'hover:bg-blue-700');
+                    // Add inactive styles
+                    t.classList.add('bg-white', 'text-gray-700', 'border-gray-300', 'hover:border-blue-500', 'hover:text-blue-600', 'hover:shadow-md');
+                });
+
+                // Add active class to clicked tab
+                this.classList.remove('bg-white', 'text-gray-700', 'border-gray-300', 'hover:border-blue-500', 'hover:text-blue-600', 'hover:shadow-md');
+                this.classList.add('bg-blue-600', 'text-white', 'border-blue-600', 'hover:bg-blue-700');
+
+                // Hide all tab contents
+                document.querySelectorAll('.tab-content').forEach(content => {
+                    content.classList.remove('active');
+                });
+
+                // Show target tab content
+                const target = this.getAttribute('data-target');
+                document.getElementById(target).classList.add('active');
+            });
+        });
+
+
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-btn').addEventListener('click', function () {
+            const mobileMenu = document.getElementById('mobile-menu');
+            const icon = this.querySelector('i');
+
+            if (mobileMenu.classList.contains('hidden')) {
+                mobileMenu.classList.remove('hidden');
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            } else {
+                mobileMenu.classList.add('hidden');
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', function () {
+                const mobileMenu = document.getElementById('mobile-menu');
+                const icon = document.querySelector('#mobile-menu-btn i');
+
+                mobileMenu.classList.add('hidden');
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            });
+        });
+
+        // Animate skill bars on scroll
+        const observerOptions = {
+            threshold: 0.5,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const skillFills = entry.target.querySelectorAll('.skill-fill');
+                    skillFills.forEach(fill => {
+                        fill.style.width = fill.style.width;
+                    });
+                }
+            });
+        }, observerOptions);
+
+        // Observe skills section
+        const skillsSection = document.querySelector('.skill-bar').closest('section');
+        if (skillsSection) {
+            observer.observe(skillsSection);
+        }
+
+        // Set dynamic last updated date
+        function setLastUpdatedDate() {
+            const now = new Date();
+            const options = {
+                day: 'numeric',
+                month: 'long',
+                year: 'numeric'
+            };
+            const formattedDate = now.toLocaleDateString('en-GB', options);
+            document.getElementById('last-updated-date').textContent = formattedDate;
+        }
+
+        // Set the date when page loads
+        document.addEventListener('DOMContentLoaded', setLastUpdatedDate);
+    </script>
+</body>
+
+</html>

@@ -56,7 +56,7 @@ Professional portfolio website showcasing AI development, data science, and web 
 - **Experience**: 3.5+ years in automation and web scraping
 
 ## 🌐 Live Demo
-[Portfolio Website](https://majidahmad.netlify.app)
+[Portfolio Website](https://heresmajid.netlify.app)
 
 ---
 *Built with ❤️ by Muhammad Majid Ahmad*
